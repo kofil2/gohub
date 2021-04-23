@@ -1,0 +1,913 @@
+body{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.navbar{
+    padding: 0;
+}
+
+
+
+
+/*Header CSS*/
+
+header{
+    background: url(../images/vector1.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px 0;
+    z-index: 0;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #32325d;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-item .btn-signin{
+    border: 1px solid #845cff;
+    background: #845cff;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+.navbar-nav .nav-item .btn-signin:hover{
+    color: #fff;
+    transition: 0.4s linear;
+}
+
+
+.navbar-nav .nav-item .nav-link::after{
+    content: "";
+}
+
+.navbar-nav .nav-item .nav-link::before{
+    content: "";
+}
+
+.navbar-nav .nav-item .nav-link:hover::after{}
+
+.navbar-nav .nav-item .nav-link:hover::before{}
+
+
+header .hero-area{
+    margin-top: 10%;
+}
+
+header .hero-area h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #32325d;
+    margin-bottom: 30px;
+}
+
+header .hero-area p{
+    padding-right: 40%;
+    color: #525f7f;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+header .hero-area a{}
+
+header .hero-area .btn-cta{
+    text-decoration: none;
+    border: 1px solid #845cff;
+    background: #845cff;
+    padding: 11px 20px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 14px;
+}
+
+header .hero-area .btn-talk{
+    text-decoration: none;
+    color: #32325d;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+
+/*About-Us CSS*/
+
+.about-us{
+    /* background: #fff; */
+    margin: 0 17%;
+    /* margin-bottom: 0; */
+}
+
+.about-us .text-area{
+    /* padding: 0 75px; */
+    /* padding-left: 30%; */
+    margin-top: 10%;
+    margin-bottom: 40%;
+    padding-right: 30px;
+}
+
+.about-us .text-area h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #32325d;
+}
+
+.about-us .text-area p{
+    /* padding-right: 30%; */
+    color: #525f7f;
+}
+
+.about-us .box{
+    /* width: 80%; */
+    background: #fff;
+    padding: 50px 25px;
+    /* margin-bottom: 30px; */
+    /* margin: auto; */
+    margin-bottom: 170px;
+    z-index: 1;
+    margin-top: -145px;
+    /* margin: 0 20%; */
+    /* margin-right: 20%; */
+    box-shadow: 2px #fff;
+    box-shadow: 0px 5px 10px #e6e6e6;
+}
+
+.about-us .box img{
+    margin-bottom: 20px;
+}
+
+.about-us .box h4{
+    margin-bottom: 10px;
+    color: #32325d;
+}
+
+.about-us .box p{
+    padding-right: 5%;
+    font-size: 14px;
+    color: #525f7f;
+}
+
+/*Service CSS*/
+
+.service{
+    background:url(../images/service-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.service .text-area{
+    text-align: center;
+}
+
+.service .text-area h3{
+    color: #32325d;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service .text-area p{
+    color: #525f7f;
+    padding: 0 20%;
+    line-height: 1.7;
+    margin-bottom: 10%;
+}
+
+
+.service .service-box{
+    text-align: center;
+    margin-bottom: 40%;
+}
+
+.service .service-box img{
+    margin-bottom: 30px;
+}
+
+.service .service-box h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.service .service-box p{
+    color: #525f7f;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/*Safety CSS*/
+
+.safety{
+    /* padding: 80px 0; */
+}
+
+.safety .box{
+    /* margin-bottom: 30px; */
+    /* margin: 50px 0; */
+    padding: 80px 25px;
+    position: relative;
+}
+
+.safety .box h3{
+    font-size: 42px;
+    padding-right: 20%;
+    color: #32325d;
+    margin-bottom: 20px;
+}
+
+.safety .box p{
+    padding-right: 15%;
+    color: #525f7f;
+    /* margin-bottom: 20px; */
+}
+
+.safety .box .drive{
+    width: 45%;
+    float: left;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.safety .box .drive h5{
+    color: ##32325d;
+    color: #32325d;
+}
+
+.safety .box .drive p{
+    font-size: 14px;
+    color: #525f7f;
+}
+
+.safety .box .ride{
+    /* width: 50%; */
+    /* padding-right: 5%; */
+    margin-bottom: 30px;
+}
+
+.safety .box .ride h5{
+    color: #32325d;
+    margin-top: 20px;
+}
+
+.safety .box .ride p{
+    font-size: 14px;
+    color: #525f7f;
+    /* margin-bottom: 31px; */
+}
+
+.safety .box .btn-cta{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #845cff;
+    background: #845cff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.safety .box .btn-talk{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #32325d;
+    display: inline-block;
+}
+
+
+
+/*Finance Section CSS*/
+
+.finance{
+    padding: 80px 0;
+}
+
+.finance .content-box{
+    margin-left: 20%;
+}
+
+
+.finance .content-box .text-area{}
+
+.finance .content-box .text-area h3{
+    color: #32325d;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.finance .content-box .text-area p{
+    color: #525f7f;
+    line-height: 1.7;
+    /* font-size: 14px; */
+    padding-right: 5%;
+}
+
+.finance .content-box .advantages{
+    margin-top: 15%;
+}
+
+.finance .content-box .advantages h5{
+    color: #32325d;
+    margin-bottom: 20px;
+}
+
+.finance .content-box .advantages p{
+    color: #525f7f;
+    margin-bottom: 20px;
+}
+
+.finance .content-box .advantages p span{
+    margin-right: 20px;
+}
+
+.finance .content-box .advantages p span img{
+    width: 3%;
+}
+
+.finance .box{
+    /* position: absolute; */
+    z-index: 1;
+    margin-top: -60%;
+    margin-bottom: 5%;
+}
+
+.finance .box img{}
+
+.finance .advantages{
+    margin-left: 5%;
+}
+
+.finance .advantages h5{
+    margin-bottom: 20px;
+    color: #32325d;
+}
+
+.finance .advantages p{
+    margin-bottom: 20px;
+    color: #525f7f;
+}
+
+.finance .advantages p span{
+    margin-right: 20px;
+}
+
+.finance .advantages p span img{
+    width: 3%;
+}
+
+
+
+/*Email Section CSS*/
+
+.email{
+    background: #fafaff;
+    padding: 80px 0;
+}
+
+.email .text-area{}
+
+.email .text-area h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #212240;
+    margin-top: 20px;
+}
+
+.email .text-area p{
+    color: #212240;
+}
+
+.email .email-address{
+    background: #fff;
+    margin-top: 10%;
+}
+
+.email .email-address .form-control{
+    background: #ffffff;
+    border: navajowhite;
+    padding: 25px 20px;
+    box-shadow: 0px 1px 1px #d8d8d8;
+}
+
+.email .email-address .btn-cta{
+    background: #fff;
+    border: none;
+    box-shadow: 0px 1px 0px #d8d8d8;
+}
+
+.email .email-address .btn-cta .text{
+    
+background: #ffffff;
+    
+border: none;
+    
+color: #845cff;
+    
+font-weight: 600;
+}
+
+.email .email-address .btn-cta .text img{
+    margin-left: 10px;
+}
+
+
+/*Footer CSS*/
+
+footer{
+    background: #212240;
+    padding: 80px 0;
+}
+
+footer .bottom-link{
+    /* color: #fff; */
+    /* padding-left: 20%; */
+}
+
+footer .bottom-link img{
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+footer .bottom-link p{
+    color: #fff;
+    padding-left: 15px;
+}
+
+footer .bottom-link h6{
+    margin-top: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+footer .bottom-link .nav .nav-item .nav-link i{
+    color: #3d4677;
+}
+
+footer .bottom-link .nav{}
+
+footer .bottom-link .nav .nav-link{
+    color: #fff;
+}
+
+
+
+/*Bottom Footer CSS*/
+
+.bottom-footer{
+    background: #212240;
+    padding-bottom: 50px;
+}
+
+.bottom-footer p{
+    color: #555377;
+}
+
+.bottom-footer h6{
+    color: #555377;
+    text-align: center;
+}
+
+
+.bottom-footer .nav{}
+
+.bottom-footer .nav .nav-link{
+    color: #555377;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsiveness*/
+
+@media (min-width: 0px ) and (max-width: 575px ){
+
+    /*NavBar Responsiveness*/
+
+    .navbar-nav .nav-item .nav-link {
+    margin-left: 0;
+}
+
+.navbar-nav .nav-item .btn-signin {
+    border: none;
+    background: none;
+    padding: 5px 0px;
+}
+
+header .hero-area {
+    text-align: center;
+    padding: 20% 0;}
+
+header .hero-area h1 {
+    font-size: 32px;
+
+}
+
+header .hero-area p {
+    padding-right: 0;
+
+}
+
+header .hero-area .btn-cta {
+    display: inline-block;
+}
+
+header .hero-area .btn-talk {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+header {
+    background: url(../images/responsive.png);
+    background-position: left;
+}
+
+.about-us {
+     margin: 0; 
+    
+}
+
+.about-us .text-area {
+    padding: 20px 0;
+     padding-left: 0; 
+     margin-top: 0%; 
+    margin-bottom: 10%;
+     padding-right: 0px; 
+    z-index: 1;
+     margin-top: 0; 
+    text-align: center;
+}
+
+.about-us .box {
+     width: 100%; 
+
+     margin-bottom: 0px; 
+    margin-bottom: 30px;
+     margin-top: 0px; 
+     margin-right: 0; 
+    text-align: center;
+}
+
+.about-us .box img {
+    width: 30%;
+}
+
+.service .text-area p {
+     padding: 0; 
+    
+}
+
+.service .service-box {
+    margin-bottom: 10%;
+}
+
+.safety .box {
+ 
+     margin: 0; 
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.safety .box h3 {
+    font-size: 36px;
+     padding-right: 0%; 
+}
+
+.safety .box p {
+     padding-right: 0%; 
+     margin-bottom: 0px; 
+}
+
+.safety .box .drive {
+    width: 50%;
+     padding-right: 0px; 
+     margin-bottom: 0px; 
+    margin-top: 20px;
+
+}
+
+.safety .box .btn-cta {
+    margin-bottom: 5%;
+}
+
+.finance {
+    padding: 40px 0;
+}
+
+.finance .content-box {
+     margin-left: 0%; 
+}
+
+.finance .content-box .text-area {
+    text-align: center;
+}
+
+.finance .content-box .advantages h5 {
+    text-align: center;
+}
+
+.finance .advantages h5 {
+
+    text-align: center;
+}
+
+.finance .advantages {
+     margin-left: 0%; 
+}
+
+.email {
+    padding: 40px 0;
+        text-align: center
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.bottom-footer {
+    
+    text-align: center;
+}
+
+.bottom-footer p {
+    margin-bottom: 20px;
+}
+
+footer .bottom-link .nav {
+    justify-content: center;
+}
+
+}
+
+@media (min-width: 576px ) and (max-width: 767px ){
+
+    /*NavBar Responsiveness*/
+
+    .navbar-nav .nav-item .nav-link {
+    margin-left: 0;
+}
+
+.navbar-nav .nav-item .btn-signin {
+    border: none;
+    background: none;
+    padding: 5px 0px;
+}
+
+header .hero-area {
+    text-align: center;
+}
+
+header .hero-area h1 {
+    font-size: 38px;
+
+}
+
+header .hero-area p {
+    padding-right: 0;
+
+}
+
+header .hero-area .btn-cta {
+    display: inline-block;
+}
+
+header .hero-area .btn-talk {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+header {
+    background: url(../images/responsive.png);
+    background-position: left;
+}
+
+.about-us {
+     margin: 0; 
+    
+}
+
+.about-us .text-area {
+    padding: 20px 0;
+     padding-left: 0; 
+     margin-top: 0%; 
+    margin-bottom: 10%;
+     padding-right: 0px; 
+    z-index: 1;
+     margin-top: 0; 
+    text-align: center;
+}
+
+.about-us .box {
+     width: 100%; 
+
+     margin-bottom: 0px; 
+    margin-bottom: 30px;
+     margin-top: 0px; 
+     margin-right: 0; 
+    text-align: center;
+}
+
+.about-us .box img {
+    width: 30%;
+}
+
+.service .text-area p {
+     padding: 0; 
+    
+}
+
+.service .service-box {
+    margin-bottom: 10%;
+}
+
+.safety .box {
+ 
+     margin: 0; 
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.safety .box h3 {
+    font-size: 36px;
+     padding-right: 0%; 
+}
+
+.safety .box p {
+     padding-right: 0%; 
+     margin-bottom: 0px; 
+}
+
+.safety .box .drive {
+    width: 50%;
+     padding-right: 0px; 
+     margin-bottom: 0px; 
+    margin-top: 20px;
+
+}
+
+.safety .box .btn-cta {
+    margin-bottom: 5%;
+}
+
+.finance {
+    padding: 40px 0;
+}
+
+.finance .content-box {
+     margin-left: 0%; 
+}
+
+.finance .content-box .text-area {
+    text-align: center;
+}
+
+.finance .content-box .advantages h5 {
+    text-align: center;
+}
+
+.finance .advantages h5 {
+
+    text-align: center;
+}
+
+.finance .advantages {
+     margin-left: 0%; 
+}
+
+.email {
+    padding: 40px 0;
+        text-align: center
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.bottom-footer {
+    
+    text-align: center;
+}
+
+.bottom-footer p {
+    margin-bottom: 20px;
+}
+
+footer .bottom-link .nav {
+    justify-content: center;
+}
+
+}
+
+@media (min-width: 768px ) and (max-width: 991px ){
+
+    /*NavBar Responsiveness*/
+
+    .navbar-nav .nav-item .nav-link {
+    margin-left: 0;
+}
+
+.navbar-nav .nav-item .btn-signin {
+    border: none;
+    background: none;
+    padding: 5px 0px;
+}
+
+header .hero-area {
+    text-align: center;
+}
+
+header .hero-area h1 {
+    font-size: 38px;
+
+}
+
+header .hero-area p {
+    padding-right: 0;
+
+}
+
+header .hero-area .btn-cta {
+    display: inline-block;
+}
+
+header .hero-area .btn-talk {
+    display: inline-block;
+    margin-top: 20px;
+}
+}
+
+@media (min-width: 992px ) and (max-width: 1199px ){}
+
